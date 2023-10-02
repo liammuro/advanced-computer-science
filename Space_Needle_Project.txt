@@ -1,0 +1,152 @@
+First Programming Assignment: Space Needle
+
+The space needle is a building in Seattle. It looks like this > 
+
+            ||
+            ||
+            ||
+            ||
+         __/||\__
+      __/:::||:::\__
+   __/::::::||::::::\__
+__/:::::::::||:::::::::\__
+|""""""""""""""""""""""""|
+\_/\/\/\/\/\/\/\/\/\/\/\_/
+  \_/\/\/\/\/\/\/\/\/\_/
+    \_/\/\/\/\/\/\/\_/
+      \_/\/\/\/\/\_/
+            ||
+            ||
+            ||
+            ||
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         |%%||%%|
+         __/||\__
+      __/:::||:::\__
+   __/::::::||::::::\__
+__/:::::::::||:::::::::\__
+|""""""""""""""""""""""""|
+
+4 tall
+
+
+         ||
+         ||
+         ||
+      __/||\__
+   __/:::||:::\__
+__/::::::||::::::\__
+|""""""""""""""""""|
+\_/\/\/\/\/\/\/\/\_/
+  \_/\/\/\/\/\/\_/
+    \_/\/\/\/\_/
+         ||
+         ||
+         ||
+      |%%||%%|
+      |%%||%%|
+      |%%||%%|
+      |%%||%%|
+      |%%||%%|
+      |%%||%%|
+      |%%||%%|
+      |%%||%%|
+      |%%||%%|
+      __/||\__
+   __/:::||:::\__
+__/::::::||::::::\__
+|""""""""""""""""""|
+3 tall
+
+
+
+
+
+
+
+
+
+      ||
+      ||
+   __/||\__
+__/:::||:::\__
+|""""""""""""|
+\_/\/\/\/\/\_/
+  \_/\/\/\_/
+      ||
+      ||
+   |%%||%%|
+   |%%||%%|
+   |%%||%%|
+   |%%||%%|
+   __/||\__
+__/:::||:::\__
+|""""""""""""|
+
+2 tall
+
+   ||
+__/||\__
+|""""""|
+\_/\/\_/
+   ||
+|%%||%%|
+__/||\__
+|""""""|
+
+1 tall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You must make a modular piece of code, where the only code in main() are calls to other methods. 
+
+The methods (besides setup) that you will need are. 
+upHalfDome()
+spacer()
+botHalfDome()
+body()
+
+Use nested for loops to output the characters
+Use the global  
+final static int SIZE = 3; //When SIZE is changed, the height/width of the needle will also change.
+Use comments to describe the state for the pre and post of the method call 
+(“none” for pre in this assignment)
+
+Here is the needle() method to get you started:
+
+// Pre: none
+// Post: Prints out the needle portions
+ public static void needle() {
+      for (int i = 1; i <= SIZE; i++) {
+         for (int space = 1; space <= SIZE*3; space++) {
+            System.out.print(" ");
+         }
+         System.out.println("||");
+      }
+   }
+
