@@ -1,3 +1,12 @@
+/*
+ * SpaceNeedle.java
+ * Liam Muro (liamm@quadprep.org, liamm@gmail.com)
+ * 09-25-2023
+ * 
+ * Assignment for Mason Dellutri's Advanced Computer Science Course at The Quad Preparatory School
+ * 
+ * Excluding provided methods, written and implemented by Liam Muro
+ */
 
 public class SpaceNeedle {
     final static int SIZE = 4; // When SIZE is changed, the height/width of the needle will also change.
